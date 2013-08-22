@@ -1,0 +1,38 @@
+body {
+	   background-repeat: no-repeat;
+	background-color: #333;
+	color: white;
+	background: linear-gradient(left, #333, #000);
+	background: -webkit-linear-gradient(left, #333, #000);
+	background: -o-linear-gradient(left, #333, #000);
+	background: -moz-linear-gradient(left, #333, #000);
+	margin-top:5%;
+
+}
+
+/*=== Nav Styles ===*/
+/* --- BG positions not needed now with reworked images (img height 43px) --- */
+#nav li.cs {background: url(img/cs.png) no-repeat 1.2em;}
+#nav li.de {background: url(img/de.png) no-repeat 1.2em;}
+#nav li.sk {background: url(img/sk.png) no-repeat 1.2em;}
+#nav li.en {background: url(img/en.png) no-repeat 1.2em;}
+
+#nav li.cs,
+#nav li.de,
+#nav li.sk,
+#nav li.en {
+    background-color:#000; /*set BG color on all classes (Opera needed this)*/
+    background-size: 2em;
+    list-style-type: none;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    margin: 0.5em;
+    padding: 1em;
+    padding-left: 4em;
+    white-space: nowrap;
+}
+
+#logo {
+	padding-left: 4em;
+}
